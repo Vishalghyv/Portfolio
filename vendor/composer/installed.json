@@ -1143,6 +1143,118 @@
         }
     },
     {
+        "name": "drupal/bootstrap",
+        "version": "3.23.0",
+        "version_normalized": "3.23.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/bootstrap.git",
+            "reference": "8.x-3.23"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/bootstrap-8.x-3.23.zip",
+            "reference": "8.x-3.23",
+            "shasum": "9849be667cc678a91ad29f77c2baea2cf16878bc"
+        },
+        "require": {
+            "drupal/core": "^8 || ^9"
+        },
+        "type": "drupal-theme",
+        "extra": {
+            "drupal": {
+                "version": "8.x-3.23",
+                "datestamp": "1592175762",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Mark Carver (markcarver)",
+                "homepage": "https://www.drupal.org/u/markcarver",
+                "role": "Maintainer"
+            },
+            {
+                "name": "John McCormick (neardark)",
+                "homepage": "https://www.drupal.org/u/neardark",
+                "role": "Co-maintainer"
+            },
+            {
+                "name": "Fabiano Sant'Ana (wundo)",
+                "homepage": "https://www.drupal.org/u/wundo",
+                "role": "Co-maintainer"
+            }
+        ],
+        "description": "Built to use Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and easier web development.",
+        "homepage": "https://www.drupal.org/project/bootstrap",
+        "support": {
+            "source": "https://git.drupalcode.org/project/bootstrap",
+            "docs": "https://drupal-bootstrap.org",
+            "issues": "https://www.drupal.org/project/issues/bootstrap",
+            "irc": "irc://irc.freenode.org/drupal-bootstrap"
+        }
+    },
+    {
+        "name": "drupal/bootstrap_barrio",
+        "version": "5.1.4",
+        "version_normalized": "5.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/bootstrap_barrio.git",
+            "reference": "5.1.4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/bootstrap_barrio-5.1.4.zip",
+            "reference": "5.1.4",
+            "shasum": "957a76d18eecfb1062088f22d3ba9ae9b79af240"
+        },
+        "require": {
+            "drupal/core": "^8 || ^9",
+            "twbs/bootstrap": "^4.4.1"
+        },
+        "type": "drupal-theme",
+        "extra": {
+            "drupal": {
+                "version": "5.1.4",
+                "datestamp": "1603660710",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Alberto Siles",
+                "homepage": "https://www.drupal.org/user/2824325",
+                "email": "alberto@siles.pe"
+            },
+            {
+                "name": "hatuhay",
+                "homepage": "https://www.drupal.org/user/827704"
+            }
+        ],
+        "description": "Bootstrap 4 base theme.",
+        "homepage": "https://www.drupal.org/project/bootstrap_barrio",
+        "support": {
+            "source": "https://git.drupalcode.org/project/bootstrap_barrio"
+        }
+    },
+    {
         "name": "drupal/core",
         "version": "9.1.4",
         "version_normalized": "9.1.4.0",
@@ -1726,6 +1838,64 @@
         }
     },
     {
+        "name": "drupal/dxpr_theme",
+        "version": "1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/dxpr_theme.git",
+            "reference": "1.2.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/dxpr_theme-1.2.0.zip",
+            "reference": "1.2.0",
+            "shasum": "d6d37200caa3d84205d6f83376a3d4774666209f"
+        },
+        "require": {
+            "drupal/bootstrap": "^3.21",
+            "drupal/core": "^8 || ^9"
+        },
+        "type": "drupal-theme",
+        "extra": {
+            "drupal": {
+                "version": "1.2.0",
+                "datestamp": "1601890749",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "DXPR",
+                "homepage": "https://dxpr.com",
+                "role": "Maintainer"
+            }
+        ],
+        "description": "Low-code Drupal Framework Theme.",
+        "homepage": "https://www.drupal.org/project/dxpr_theme",
+        "keywords": [
+            "Bootstrap",
+            "DXPR",
+            "Drupal",
+            "Framework",
+            "Marketing",
+            "Theme"
+        ],
+        "support": {
+            "source": "https://git.drupalcode.org/project/dxpr_theme",
+            "documentation": "https:/.dxpr.com/hc",
+            "issues": "https://dxpr.com/hc/tickets"
+        }
+    },
+    {
         "name": "drupal/entity_browser",
         "version": "2.5.0",
         "version_normalized": "2.5.0.0",
@@ -2264,6 +2434,58 @@
         "homepage": "https://www.drupal.org/project/jquery_ui_checkboxradio",
         "support": {
             "source": "https://git.drupalcode.org/project/jquery_ui_checkboxradio"
+        }
+    },
+    {
+        "name": "drupal/material_base",
+        "version": "2.0.0-beta2",
+        "version_normalized": "2.0.0.0-beta2",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/material_base.git",
+            "reference": "8.x-2.0-beta2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/material_base-8.x-2.0-beta2.zip",
+            "reference": "8.x-2.0-beta2",
+            "shasum": "9530448f8399f18414e806bb7a904a64798d1eb4"
+        },
+        "require": {
+            "drupal/core": "^8 || ^9"
+        },
+        "type": "drupal-theme",
+        "extra": {
+            "drupal": {
+                "version": "8.x-2.0-beta2",
+                "datestamp": "1598637737",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Project has not opted into security advisory coverage!"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Andrey Yurtaev (iamdroid)",
+                "homepage": "https://www.drupal.org/u/iamdroid",
+                "role": "Maintainer"
+            },
+            {
+                "name": "iamdroid",
+                "homepage": "https://www.drupal.org/user/892728"
+            }
+        ],
+        "description": "Base theme inspirited by Material Design concept.",
+        "homepage": "https://www.drupal.org/project/material_base",
+        "support": {
+            "source": "https://git.drupalcode.org/project/material_base",
+            "issues": "https://www.drupal.org/project/issues/material_base"
         }
     },
     {
@@ -6332,6 +6554,65 @@
             {
                 "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                 "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "twbs/bootstrap",
+        "version": "v4.6.0",
+        "version_normalized": "4.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twbs/bootstrap.git",
+            "reference": "6ffb0b48e455430f8a5359ed689ad64c1143fac2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twbs/bootstrap/zipball/6ffb0b48e455430f8a5359ed689ad64c1143fac2",
+            "reference": "6ffb0b48e455430f8a5359ed689ad64c1143fac2",
+            "shasum": ""
+        },
+        "replace": {
+            "twitter/bootstrap": "self.version"
+        },
+        "time": "2021-01-19T16:16:38+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mark Otto",
+                "email": "markdotto@gmail.com"
+            },
+            {
+                "name": "Jacob Thornton",
+                "email": "jacobthornton@gmail.com"
+            }
+        ],
+        "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+        "homepage": "https://getbootstrap.com/",
+        "keywords": [
+            "JS",
+            "css",
+            "framework",
+            "front-end",
+            "mobile-first",
+            "responsive",
+            "sass",
+            "web"
+        ],
+        "funding": [
+            {
+                "url": "https://opencollective.com/bootstrap",
+                "type": "open_collective"
             }
         ]
     },
